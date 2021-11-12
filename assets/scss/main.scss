@@ -1,0 +1,104 @@
+
+.container{
+    .row{
+       .whatwedo.col-lg-6{
+                .title{
+                    color: blue;
+                    margin-top: 10px;
+                    margin-bottom: 40px;
+                }
+            }
+        .what-more{
+            .more{
+                margin-top: 10px;
+                padding: 10px;
+                font-weight: bold;
+                position: absolute;
+                width: 200px;
+                height: 50px;
+                background-color: white;
+                border: 3px solid ;
+                border-color:gray;
+                border-radius: 10px;
+                right: 200px;
+                &:hover{
+                    border-color: rgb(243, 162, 13);
+                }
+            }
+                i{
+                    font-size: 20px;
+                    position: absolute;
+                    left: 140px;
+                    transition-duration: 0.5s;
+                    color: orange;
+                    
+                }
+        }
+    }
+}
+
+.more:hover i{
+transform: translateX(10px);
+}
+.head{
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+.icon{
+    display: flex;
+    justify-content: center;
+  
+}
+#tech{
+    .image{
+        .color{
+            position: absolute;
+            right: 0px;
+            width: 50%;
+            height: 100vh;
+            background-color: rgba($color:rgb(23, 33, 145), $alpha: 0.5);
+        }
+        position: relative;
+        background-attachment: fixed;
+        background-image: url(https://www.simbrella.com/site/assets/files/1049/solutions_bg-1.jpg);
+        background-repeat: no-repeat;
+        background-position:center;
+        width: 100%;
+        height: 100vh;
+        .container{
+            .row{
+                     display: flex;
+                    align-items: center;
+                    height: 100vh;
+                .text{
+                    font-size: 53px;
+                    color: white;
+                    font-weight: bold;
+                }
+                .paragh{
+                    padding-left: 55px;
+                    color: white;
+                    font-size: 22px;
+                    z-index: 2;
+                    font-weight: bold;
+                    line-height: 3;
+                }
+            }
+        }
+    }
+}
+.ai,.micro,.big{
+    border: solid rgb(213,221,228) 2px;
+    border-radius: 4px;
+    cursor: pointer;
+    height: 468px;
+    width: 360px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-left: 70px;
+}

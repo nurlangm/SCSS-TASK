@@ -1,0 +1,122 @@
+.container .row .whatwedo.col-lg-6 .title {
+  color: blue;
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+
+.container .row .what-more .more {
+  margin-top: 10px;
+  padding: 10px;
+  font-weight: bold;
+  position: absolute;
+  width: 200px;
+  height: 50px;
+  background-color: white;
+  border: 3px solid;
+  border-color: gray;
+  border-radius: 10px;
+  right: 200px;
+}
+
+.container .row .what-more .more:hover {
+  border-color: #f3a20d;
+}
+
+.container .row .what-more i {
+  font-size: 20px;
+  position: absolute;
+  left: 140px;
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+  color: orange;
+}
+
+.more:hover i {
+  -webkit-transform: translateX(10px);
+          transform: translateX(10px);
+}
+
+.head {
+  font-size: 20px;
+  font-weight: bold;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#tech .image {
+  position: relative;
+  background-attachment: fixed;
+  background-image: url(https://www.simbrella.com/site/assets/files/1049/solutions_bg-1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 100vh;
+}
+
+#tech .image .color {
+  position: absolute;
+  right: 0px;
+  width: 50%;
+  height: 100vh;
+  background-color: rgba(23, 33, 145, 0.5);
+}
+
+#tech .image .container .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+}
+
+#tech .image .container .row .text {
+  font-size: 53px;
+  color: white;
+  font-weight: bold;
+}
+
+#tech .image .container .row .paragh {
+  padding-left: 55px;
+  color: white;
+  font-size: 22px;
+  z-index: 2;
+  font-weight: bold;
+  line-height: 3;
+}
+
+.ai, .micro, .big {
+  border: solid #d5dde4 2px;
+  border-radius: 4px;
+  cursor: pointer;
+  height: 468px;
+  width: 360px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 70px;
+}
+/*# sourceMappingURL=main.css.map */
